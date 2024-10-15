@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "SJKZ1's Owl",
+		"description": "§eAdd owl to minecraft because they are cute!",
+		"uuid": "0ab1b7bd-54c7-0cd0-7be2-03aea7679824",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["SJKZ1"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.6.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "f69a10de-94b8-62df-2066-444ece312d8e",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "86c09050-cdf7-8322-5e42-d305e341bb62",
+			"version": [1, 0, 0]
+		}
+	]
+}
