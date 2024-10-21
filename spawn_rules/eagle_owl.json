@@ -9,15 +9,15 @@
 			{
 				"minecraft:spawns_on_surface": {},
 				"minecraft:weight": {
-					"default": 70
+					"default": 10
 				},
 				"minecraft:herd": {
-					"min_size": 2,
-					"max_size": 4
+					"min_size": 1,
+					"max_size": 2
 				},
 				"minecraft:brightness_filter": {
 					"min": 0,
-					"max": 7,
+					"max": 15,
 					"adjust_for_weather": false
 				},
 				"minecraft:biome_filter": {
@@ -41,6 +41,11 @@
 							"test": "has_biome_tag",
 							"operator": "==",
 							"value": "mutated"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "forest"
 						}
 					]
 				}
